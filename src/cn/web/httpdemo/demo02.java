@@ -9,10 +9,13 @@ import java.io.IOException;
 
 @WebServlet("/demo02")
 public class demo02 extends HttpServlet {
+
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         super.doPost(req, resp);
         System.out.println("dopost");
+
+
     }
 
     @Override
