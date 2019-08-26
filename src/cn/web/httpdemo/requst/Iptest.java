@@ -37,8 +37,7 @@ public class Iptest extends HttpServlet {
                 ipAddress = ipAddress.substring(0, ipAddress.indexOf(","));
             }
         }
-       // return ipAddress;
-        System.out.println("ip是"+ ipAddress);
-
+        // return ipAddress;
+        System.out.println("ip是" + ipAddress);
     }
 }
