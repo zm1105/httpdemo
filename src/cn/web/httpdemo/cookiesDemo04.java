@@ -13,8 +13,8 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 //判断用户是否首次登录
-@WebServlet("/demo04")
-public class demo04 extends HttpServlet {
+@WebServlet("/cookiesDemo04")
+public class cookiesDemo04 extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html;charset=utf-8");
         Cookie[] cookies = request.getCookies();
